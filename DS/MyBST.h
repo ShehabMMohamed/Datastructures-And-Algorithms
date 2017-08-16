@@ -11,14 +11,14 @@ struct BST_Node {
     BST_Node* left;
 };
 
-class BST {
+class MyBST {
 private:
     BST_Node* root;
 public:
-    BST();
+    MyBST();
     void InsertNode(int data);
     void RemoveNode(int data);
-    ~BST();
+    ~MyBST();
 
 };
 

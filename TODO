@@ -1,7 +1,7 @@
 # Implement all Sorting Algorithms
    *# Bubble Sort
-    # Insertion Sort
-    # Selection Sort
+   *# Insertion Sort
+   *# Selection Sort
     # Heap Sort
     # Quick Sort
     # Merge Sort
@@ -13,6 +13,10 @@
     # Trees (BST)
     # Vectors
     # Hash Tables
+    # Heap
+    # Tries
+    # Sets
+    # Graph
 
 # Implement other necessary algorithms
     # BFS

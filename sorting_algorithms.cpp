@@ -41,3 +41,25 @@ void InsertionSort(int Arr[], int sz)
     }
 
 }
+
+// Worst Case O(n^2), Average Case O(n^2), Best Case O(n^2)
+void SelectionSort(int Arr[], int sz)
+{
+    int Min;
+    for(int i=0; i<sz-1; i++)
+    {
+        Min = i;
+        for(int j = i + 1; j<sz; j++)
+            if(Arr[j]<Arr[Min])
+                Min = j;
+        if(Min != i)
+            swap(&Arr[Min], &Arr[i]);
+    }
+
+}
+
+void MergeSort();
+void HeapSort();
+void Merge();
+void QuickSort();
+int Partition();

@@ -14,6 +14,7 @@ public:
     MyLinkedList();
     void insertNode(int data);
     void removeNode();
+    void reverseLinkedList();
     ~MyLinkedList();
 
 };
