@@ -1,7 +1,3 @@
-//
-// Created by Shehab Mohamed on 8/6/17.
-//
-
 #include "MyLinkedList.h"
 
 MyLinkedList::MyLinkedList() {
@@ -9,12 +5,12 @@ MyLinkedList::MyLinkedList() {
 }
 
 void MyLinkedList::insertNode(int data) {
-    Node* newNode = new Node;
+    listNode *newNode = new listNode;
     newNode->data = data;
     if(root == nullptr)
         root = newNode;
     else {
-        Node* temp = root->next;
+        listNode *temp = root->next;
         while (true)
         {
             if(temp->next == nullptr)
@@ -33,7 +29,7 @@ void MyLinkedList::removeNode() {
         delete root;
     else
     {
-        Node* temp = root;
+        listNode *temp = root;
         while(temp->next != nullptr)
         {
             temp = temp->next;
