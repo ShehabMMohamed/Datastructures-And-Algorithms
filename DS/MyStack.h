@@ -15,7 +15,9 @@ public:
 
     void push(int);
 
-    int pop();
+    void pop();
+
+    int retrieve_top();
 
     bool isEmpty();
 
@@ -36,9 +38,10 @@ private:
         StackNode *next;
     };
     StackNode *root;
-    int size = 50;
+    int capacity = 50;
     int top;
-    int *S;
+
+    StackNode *createStackNode(int data);
 
 public:
     MyStack2();
@@ -47,7 +50,9 @@ public:
 
     void push(int);
 
-    int pop();
+    void pop();
+
+    int retrieve_top();
 
     bool isEmpty();
 

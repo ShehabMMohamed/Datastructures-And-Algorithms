@@ -9,7 +9,7 @@ void swap(int*a, int*b)
 // Worst Case O(n^2), Average Case O(n^2), Best Case O(n)
 void BubbleSort(int Arr[], int sz)
 {
-    bool swapped;       // This optimization helps to figure out if actual swapping occurred or not
+    bool swapped;       // This optimization helps to figure out if actual swapping occurred or not in the inner loop.
                         // If it never occurred, then the list is already sorted. O(n) best case.
     for(int i=0; i<sz - 1; i++) {
         swapped = false;

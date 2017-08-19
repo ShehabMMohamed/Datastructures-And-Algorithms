@@ -1,20 +1,21 @@
 #include "MyLinkedList.h"
 
-MyLinkedList::MyLinkedList() {
-    this->root = nullptr;
-}
+MyLinkedList::MyLinkedList() : root(nullptr) {}
 
-void MyLinkedList::insertNode(int data) {
+listNode *MyLinkedList::createNode(int data) {
     listNode *newNode = new listNode;
     newNode->data = data;
+    return listNode;
+}
+
+void MyLinkedList::insertNode(int d) {
+    listNode *newNode = MyLinkedList::createNode(d);
     if(root == nullptr)
         root = newNode;
     else {
         listNode *temp = root->next;
-        while (true)
-        {
-            if(temp->next == nullptr)
-            {
+        while (true) {
+            if(temp->next == nullptr) {
                 temp->next = newNode;
                 root = temp;
                 break;
