@@ -58,8 +58,21 @@ void SelectionSort(int Arr[], int sz)
 
 }
 
-void MergeSort();
+void MergeSort(int Arr[], int left, int right) {
+    if (left < right) {
+        int middle = (left + right) / 2;
+        MergeSort(Arr, left, middle);
+        MergeSort(Arr, middle + 1, right);
+
+        Merge(Arr, left, middle, right);
+    }
+}
+
+void Merge(int Arr[], int left, int m, int right);
+
 void HeapSort();
-void Merge();
+
+void Heapify();
+
 void QuickSort();
 int Partition();
