@@ -1,4 +1,4 @@
-#include "MyHeap.h"
+#include "Heaps.h"
 
 MyMinHeap::MyMinHeap() : capacity(50) {}
 

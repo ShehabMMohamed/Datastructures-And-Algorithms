@@ -1,41 +1,41 @@
 #include <iostream>
-#include "MyStack.h"
+#include "Stacks.h"
 
 // Implementing Stack class with a dynamically allocated array.
-MyStack::MyStack() : top(-1) {
+Stacks::Stacks() : top(-1) {
     S = new int[size];
 }
 
-MyStack::MyStack(int input_size) : top(-1) {
+Stacks::Stacks(int input_size) : top(-1) {
     this->size = input_size;
     S = new int[size];
 }
 
-void MyStack::push(int v) {
+void Stacks::push(int v) {
     if (!isFull())
         S[++top] = v;
 }
 
-void MyStack::pop() {
+void Stacks::pop() {
     if (!isEmpty()) {
         int v = S[top];
         top--;
     }
 }
 
-int MyStack::retrieve_top() {
+int Stacks::retrieve_top() {
     return isEmpty() ? -1 : S[top];
 }
 
-bool MyStack::isEmpty() {
+bool Stacks::isEmpty() {
     return top == -1;
 }
 
-bool MyStack::isFull() {
+bool Stacks::isFull() {
     return top == size - 1;
 }
 
-void MyStack::showStack() {
+void Stacks::showStack() {
     if (isEmpty()) {
         std::cout << "Stack is Empty." << std::endl;
         return;
@@ -44,7 +44,7 @@ void MyStack::showStack() {
         std::cout << "[" << i << "] : " << S[i] << std::endl;
 }
 
-MyStack::~MyStack() {
+Stacks::~Stacks() {
     delete[] S;
 }
 

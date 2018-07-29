@@ -2,7 +2,7 @@
 #include <unordered_set>
 #include <unordered_map>
 #include <queue>
-#include "DS/MyStack.h"
+#include "Data Structures/Stacks.h"
 
 using namespace std;
 
@@ -14,7 +14,7 @@ int main() {
     unordered_set<int> s;           // Key is the value
     unordered_map::iterator it;     // iterating over the map.
 
-    MyStack S1 = MyStack(25);
+    Stacks S1 = Stacks(25);
     for (int i = 0; i < 5; i++)
         S1.push(10 + i);
     S1.showStack();

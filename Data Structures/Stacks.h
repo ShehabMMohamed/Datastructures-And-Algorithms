@@ -2,16 +2,16 @@
 #define DATASTRUCTURES_MYSTACK_H
 
 // Implementing Stack class with a dynamically allocated array.
-class MyStack {
+class Stacks {
 private:
     int size = 50;
     int top;
     int *S;
 
 public:
-    MyStack();
+    Stacks();
 
-    MyStack(int);
+    Stacks(int);
 
     void push(int);
 
@@ -25,7 +25,7 @@ public:
 
     void showStack();
 
-    ~MyStack();
+    ~Stacks();
 
 };
 
