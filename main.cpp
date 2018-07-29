@@ -1,9 +1,18 @@
 #include <iostream>
+#include <unordered_set>
+#include <unordered_map>
+#include <queue>
 #include "DS/MyStack.h"
 
 using namespace std;
 
 int main() {
+
+    queue<int> Q;       // One end
+    deque<int> DQ;      // Two ends
+    unordered_map<char, int> hmp;   // key->value
+    unordered_set<int> s;           // Key is the value
+    unordered_map::iterator it;     // iterating over the map.
 
     MyStack S1 = MyStack(25);
     for (int i = 0; i < 5; i++)
