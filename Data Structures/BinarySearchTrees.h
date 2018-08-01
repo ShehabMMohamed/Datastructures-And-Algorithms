@@ -19,6 +19,11 @@ private:
 
     TreeNode *_Delete(TreeNode *root, int key);
 
+    TreeNode *_GetSmallest(TreeNode *root);
+
+    TreeNode *_GetLargest(TreeNode *root);
+
+    void _Search(TreeNode *root, int key);
 
 public:
     BST() : root(nullptr) {};
@@ -27,7 +32,11 @@ public:
 
     void DeleteNode(int k) { root = _Delete(root, k); }
 
-    void SearchNode(int k);
+    void SearchNode(int k) { root = _Search(root, k); }
+
+    void GetSmallestNode() { root = _GetSmallest(root); }
+
+    void GetLargestNode() { root = _GetLargest(root); }
 
     void PreOrder();
 
