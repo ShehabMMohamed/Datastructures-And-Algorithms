@@ -7,36 +7,40 @@
 
 #include <stdio.h>
 
+class TreeNode {
+public:
+    int key;
+    int height;
+    TreeNode *left;
+    TreeNode *right;
+};
+
 class AVL_Tree {
 
 private:
-    struct Node {
-        int key;
-        Node *left;
-        Node *right;
-        int height;
-    };
-    Node *root;
 
-    int height(Node *t);
+    TreeNode *root;
+
+    int height(struct TreeNode *t);
 
     int max(int, int);
 
-    Node *NewNode(int key);
+    TreeNode *NewTreeNode(int k);
 
-    Node *Right_Rotate(Node *t);
+    TreeNode *Right_Rotate(TreeNode *t);
 
-    Node *Left_Rotate(Node *t);
+    TreeNode *Left_Rotate(TreeNode *t);
 
-    int getBalance(Node *t);
+    int getBalance(TreeNode *t);
 
-    Node *_Insert(Node *root, int key);
+    TreeNode *_Insert(TreeNode *root, int key);
 
-    Node *_Delete(Node *root, int key);
+    TreeNode *_Delete(TreeNode *root, int key);
 
+    void _PreOrder(TreeNode *root);
 
 public:
-    AVL_Tree() { root = NULL; }
+    AVL_Tree();
 
     void Insert(int key) { root = _Insert(root, key); }
 
@@ -44,8 +48,9 @@ public:
 
     void Search(int key);
 
-    ~AVL_Tree();
+    void PreOrder() { _PreOrder(root); };
 
+    ~AVL_Tree();
 
 };
 
