@@ -1,7 +1,6 @@
 #ifndef DATASTRUCTURES_MYLINKEDLIST_H
 #define DATASTRUCTURES_MYLINKEDLIST_H
 
-//TODO:finish and test methods.
 class MyLinkedList {
 private:
 

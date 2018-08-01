@@ -5,7 +5,7 @@
 #include "Data Structures/Stacks.h"
 #include "Advanced Data Structures/AVL_Tree.h"
 
-#include "sorting_algorithms.cpp"
+#include "Algorithms/sorting_algorithms.cpp"
 using namespace std;
 
 int main() {
