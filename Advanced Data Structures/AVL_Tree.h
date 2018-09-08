@@ -21,7 +21,7 @@ private:
 
     TreeNode *root;
 
-    int height(struct TreeNode *t);
+    int height(TreeNode *t);
 
     int max(int, int);
 
