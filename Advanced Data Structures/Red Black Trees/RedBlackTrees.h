@@ -1,11 +1,8 @@
-//
-// Created by Shehab Abdel-Salam on 7/29/18.
-//
-
 #ifndef DATASTRUCTURES_REDBLACKTREES_H
 #define DATASTRUCTURES_REDBLACKTREES_H
 
 #include "stdio.h"
+#include "iostream"
 
 class TreeNode {
     TreeNode *left;
@@ -27,13 +24,13 @@ class RedBlackTrees {
 private:
     TreeNode *root;
 
-    void RotateRight(TreeNode *T, TreeNode *y);
+    void RotateRight(TreeNode *y);
 
-    void RotateLeft(TreeNode *T, TreeNode *x);
+    void RotateLeft(TreeNode *x);
 
-    bool _insert(TreeNode *T, int key);
+    bool _insert(TreeNode *root, int key);
 
-    bool _delete(TreeNode *T, int key);
+    bool _delete(TreeNode *root, int key);
 
     int black_height(TreeNode *X);
 

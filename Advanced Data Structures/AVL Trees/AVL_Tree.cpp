@@ -46,7 +46,7 @@ TreeNode *AVL_Tree::Left_Rotate(TreeNode *x) {
 }
 
 int AVL_Tree::getBalance(TreeNode *t) {
-    if (t == NULL) return 0;
+    if (t == nullptr) return 0;
     return height(t->left) - height(t->right);
 }
 
