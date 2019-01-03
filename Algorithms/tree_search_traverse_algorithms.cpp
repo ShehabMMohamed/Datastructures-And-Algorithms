@@ -36,7 +36,7 @@ void PostOrderTraversal(treeNode *root) {
 
 // Breath First Search for BST.
 treeNode *BFS(treeNode *root, int value) {
-    std::queue<treeNode *> Q;
+    std::queue <treeNode> Q;
     if (root == nullptr)
         return nullptr;
     Q.push(root);
