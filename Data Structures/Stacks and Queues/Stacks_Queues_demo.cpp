@@ -27,7 +27,7 @@ int main() {
         S.pop();
 
     // Using Queue.
-    //TODO.
+    Queue Q = Queue();
 
     return 0;
 }
