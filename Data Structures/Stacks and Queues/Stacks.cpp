@@ -1,24 +1,29 @@
 #include <iostream>
+#include <string>
 #include "Stacks.h"
 
 // Implementing Stack class with a dynamically allocated array.
-Stack::Stack() : top_index(-1) {
-    S = new int[size];
+template<typename T>
+Stack<T>::Stack() : top_index(-1) {
+    S = new T[size];
 }
 
-Stack::Stack(int input_size) : top_index(-1) {
+template<typename T>
+Stack<T>::Stack(int input_size) : top_index(-1) {
     size = input_size;
-    S = new int[size];
+    S = new T[size];
 }
 
-void Stack::push(int e) {
+template<typename T>
+void Stack<T>::push(T e) {
     if (isFull())
         std::cout << "Stack is full. Can't push any more element.\n";
     else
         S[++top_index] = e;
 }
 
-void Stack::pop() {
+template<typename T>
+void Stack<T>::pop() {
     if (!isEmpty()) {
         S[top_index] = 0;
         top_index--;
@@ -26,19 +31,23 @@ void Stack::pop() {
         std::cout << "Stack is empty. Can't pop any more element.\n";
 }
 
-int Stack::top() {
+template<typename T>
+T Stack<T>::top() {
     return isEmpty() ? -1 : S[top_index];
 }
 
-bool Stack::isEmpty() {
+template<typename T>
+bool Stack<T>::isEmpty() {
     return top_index == -1;
 }
 
-bool Stack::isFull() {
+template<typename T>
+bool Stack<T>::isFull() {
     return top_index == size - 1;
 }
 
-void Stack::showStack() {
+template<typename T>
+void Stack<T>::showStack() {
     if (isEmpty()) {
         std::cout << "Stack is Empty." << std::endl;
         return;
@@ -47,6 +56,16 @@ void Stack::showStack() {
         std::cout << "[" << i << "] : " << S[i] << std::endl;
 }
 
-Stack::~Stack() {
+template<typename T>
+Stack<T>::~Stack() {
     delete[] S;
 }
+
+template
+class Stack<int>;
+
+template
+class Stack<char>;
+
+template
+class Stack<float>;

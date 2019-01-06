@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include "Stacks.h"
-#include "Queues.h"
+//#include "Queues.h"
 
 using namespace std;
-srand(time(NULL));
 
 int main() {
+    srand(time(NULL));
 
     // Using Stack.
-    Stack S = Stack(25);
+    Stack<int> S = Stack(25);
 
     // Pushing randomly generated elements into stack.
     for (int i = 0; i < 9; i++)
@@ -27,16 +27,16 @@ int main() {
         S.pop();
 
     // Using Queue.
-    Queue Q = Queue();
-
-    for (int i = 0; i < 14; i++)
-        Q.Enqueue(rand() % 100);
-
-    Q.showQueue();
-    printf("Current front of queue is %d\n", Q.Front());
-    printf("Removing element %d from queue\n", Q.Dequeue());
-    printf("Current front of queue is %d\n", Q.Front());
-    printf("Current back of queue is %d\n", Q.Back());
+//    Queue Q = Queue();
+//
+//    for (int i = 0; i < 14; i++)
+//        Q.Enqueue(rand() % 100);
+//
+//    Q.showQueue();
+//    printf("Current front of queue is %d\n", Q.Front());
+//    printf("Removing element %d from queue\n", Q.Dequeue());
+//    printf("Current front of queue is %d\n", Q.Front());
+//    printf("Current back of queue is %d\n", Q.Back());
 
     return 0;
 }

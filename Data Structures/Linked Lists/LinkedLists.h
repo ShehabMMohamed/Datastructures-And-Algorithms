@@ -1,7 +1,7 @@
-#ifndef DATASTRUCTURES_MYLINKEDLIST_H
-#define DATASTRUCTURES_MYLINKEDLIST_H
+#ifndef LINKEDLISTS_H
+#define LINKEDLISTS_H
 
-class MyLinkedList {
+class LinkedList {
 private:
 
     struct listNode {
@@ -16,7 +16,7 @@ private:
     void deleteNode(const int pos);
 
 public:
-    MyLinkedList();
+    LinkedList();
 
     void insert_node_front(int data);
 
@@ -26,9 +26,9 @@ public:
 
     void reverse_list();
 
-    ~MyLinkedList();
+    ~LinkedList();
 
 };
 
 
-#endif //DATASTRUCTURES_MYLINKEDLIST_H
+#endif 

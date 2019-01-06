@@ -1,21 +1,22 @@
 #ifndef STACKS_H
 #define STACKS_H
 
+template<typename T>
 class Stack {
 private:
-    int size, top_index;
-    int *S;
+    int size = 50, top_index;
+    T *S;
 
 public:
     Stack();
 
     Stack(int);
 
-    void push(int);
+    void push(T);
 
     void pop();
 
-    int top();
+    T top();
 
     bool isEmpty();
 
