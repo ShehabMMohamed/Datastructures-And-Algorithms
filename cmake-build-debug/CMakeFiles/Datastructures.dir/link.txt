@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Datastructures.dir/main.cpp.o CMakeFiles/Datastructures.dir/Data_Structures/Stacks.cpp.o CMakeFiles/Datastructures.dir/Advanced_Data_Structures/AVL_Tree.cpp.o  -o Datastructures 
