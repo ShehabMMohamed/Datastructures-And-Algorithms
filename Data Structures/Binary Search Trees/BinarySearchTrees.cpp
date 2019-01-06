@@ -48,12 +48,20 @@ TreeNode *BST::_Delete(TreeNode *root, int key) {
             delete root;
             return temp;
         } else {
-            // two children. Get the smallest right child.
+            // two children.
+            // Find In-Order Successor.
             TreeNode *temp = _GetSmallest(root->right);
             root->key = temp->key;
 
-            // Delete the inorder successor.
             root->right = _Delete(root->right, root->key);
+
+            // OR ...
+            // Find In-Order Predecessor.
+            //TreeNode *temp = _GetLargest(root->left);
+            //root->key = temp->key;
+
+            //root->left = _Delete(root->left, root->key);
+
         }
     }
     return root;
