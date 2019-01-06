@@ -21,6 +21,8 @@ public:
 
     bool isEmpty();
 
+    void showQueue();
+
     ~Queue();
 
 };

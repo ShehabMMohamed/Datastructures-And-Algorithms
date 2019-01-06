@@ -29,6 +29,15 @@ int main() {
     // Using Queue.
     Queue Q = Queue();
 
+    for (int i = 0; i < 14; i++)
+        Q.Enqueue(rand() % 100);
+
+    Q.showQueue();
+    printf("Current front of queue is %d\n", Q.Front());
+    printf("Removing element %d from queue\n", Q.Dequeue());
+    printf("Current front of queue is %d\n", Q.Front());
+    printf("Current back of queue is %d\n", Q.Back());
+
     return 0;
 }
 
