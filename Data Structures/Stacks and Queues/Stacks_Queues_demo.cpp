@@ -10,7 +10,7 @@ int main() {
     srand(time(NULL));
 
     // Using Stack.
-    Stack<int> S = Stack(25);
+    Stack<int> S(50);
 
     // Pushing randomly generated elements into stack.
     for (int i = 0; i < 9; i++)

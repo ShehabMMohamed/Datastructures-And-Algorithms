@@ -8,23 +8,54 @@ private:
     T *S;
 
 public:
-    Stack();
+    Stack() : top_index(-1) {
+        S = new T[size];
+    }
 
-    Stack(int);
+    Stack(int input_size) : top_index(-1) {
+        size = input_size;
+        S = new T[size];
+    }
 
-    void push(T);
+    void push(T e) {
+        if (isFull())
+            std::cout << "Stack is full. Can't push any more element.\n";
+        else
+            S[++top_index] = e;
+    }
 
-    void pop();
+    void pop() {
+        if (!isEmpty()) {
+            S[top_index] = 0;
+            top_index--;
+        } else
+            std::cout << "Stack is empty. Can't pop any more element.\n";
+    }
 
-    T top();
+    T top() {
+        return isEmpty() ? -1 : S[top_index];
+    }
 
-    bool isEmpty();
+    bool isEmpty() {
+        return top_index == -1;
+    }
 
-    bool isFull();
+    bool isFull() {
+        return top_index == size - 1;
+    }
 
-    void showStack();
+    void showStack() {
+        if (isEmpty()) {
+            std::cout << "Stack is Empty." << std::endl;
+            return;
+        }
+        for (int i = top_index; i >= 0; i--)
+            std::cout << "[" << i << "] : " << S[i] << std::endl;
+    }
 
-    ~Stack();
+    ~Stack() {
+        delete[] S;
+    }
 
 };
 
