@@ -20,12 +20,15 @@ public:
     void push(T e) {
         if (isFull())
             std::cout << "Stack is full. Can't push any more element.\n";
-        else
+        else {
             S[++top_index] = e;
+            std::cout << "Pushing " << e << " to Stack\n";
+        }
     }
 
     void pop() {
         if (!isEmpty()) {
+            std::cout<<"Popping from Stack.\n";
             S[top_index] = 0;
             top_index--;
         } else

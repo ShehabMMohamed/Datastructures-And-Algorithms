@@ -7,7 +7,7 @@ private:
     int front_idx, back_idx, capacity;
     T *A;
 public:
-    Queue() capacity(50), front_idx(-1), back_idx(-1) {
+    Queue() : capacity(50), front_idx(-1), back_idx(-1) {
         A = new T[capacity];
     }
     T Front() {
