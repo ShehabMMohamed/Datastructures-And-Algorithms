@@ -1,7 +1,3 @@
-//
-// Created by Shehab Abdel-Salam on 8/1/18.
-//
-
 #define d 256
 
 void KarpRabinSearch(char text[], char pattern[], int q)    // q is a prime number for hashing.

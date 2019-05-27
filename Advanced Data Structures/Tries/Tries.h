@@ -1,24 +1,24 @@
-#ifndef DATASTRUCTURES_MYTRIE_H
-#define DATASTRUCTURES_MYTRIE_H
+#ifndef TRIES_H
+#define TRIES_H
 
-//TODO: finish Trie methods definition.
+#define ALPHABET_SIZE 256
+
+class TrieNode {
+public:
+	TrieNode *children = new TrieNode[ALPHABET_SIZE];
+	bool isLead;
+	TrieNode() {};
+};
+
 class MyTrie {
 private:
-    const ALPHABET_SIZE = 256;
-    struct trieNode {
-        bool isLeaf;
-        trieNode *children = new trieNode[ALPHABET_SIZE];
-    };
-    trieNode *root;
-
-    void createNode();
+    TrieNode *root;
 
 public:
     void insertNode(const char *key);
-
     bool searchFor(const char *key);
 
 };
 
 
-#endif //DATASTRUCTURES_MYTRIE_H
+#endif 

@@ -1,19 +1,16 @@
-//
-// Created by Shehab Abdel-Salam on 7/29/18.
-//
+#ifndef SKIPLISTS_H
+#define SKIPLISTS_H
 
-#ifndef DATASTRUCTURES_SKIPLISTS_H
-#define DATASTRUCTURES_SKIPLISTS_H
-
+template <typename T>
 class SkipNode {
-private:
-
 public:
 	
 }
-class SkipLists {
+
+template <typename T>
+class SkipList {
 
 };
 
 
-#endif //DATASTRUCTURES_SKIPLISTS_H
+#endif 

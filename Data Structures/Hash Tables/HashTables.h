@@ -1,14 +1,15 @@
-//
-// Created by Shehab Abdel-Salam on 7/29/18.
-//
-
-#ifndef DATASTRUCTURES_HASHTABLES_H
-#define DATASTRUCTURES_HASHTABLES_H
+#ifndef HASHTABLES_H
+#define HASHTABLES_H
 
 
-class HashTables {
+class HashTable {
+private:
 
+public:
+	HashTable() {}:
+
+	~HashTable() {};
 };
 
 
-#endif //DATASTRUCTURES_HASHTABLES_H
+#endif 
