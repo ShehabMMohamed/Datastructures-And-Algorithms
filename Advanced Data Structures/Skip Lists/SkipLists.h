@@ -5,7 +5,12 @@
 #ifndef DATASTRUCTURES_SKIPLISTS_H
 #define DATASTRUCTURES_SKIPLISTS_H
 
+class SkipNode {
+private:
 
+public:
+	
+}
 class SkipLists {
 
 };
