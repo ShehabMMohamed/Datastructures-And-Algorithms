@@ -5,11 +5,24 @@ This repo serves as a studying material and a practice on implementation of comm
 |Name|Article|
 |------|---------|
 |Binary Search Trees|https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html|
-|Stacks & Queues||
-|Singly & Doubly Linked Lists||
 |Red Black Trees||
 |AVL Trees||
-|Binary Heaps||
+|B Trees||
+|Stacks & Queues||
+|Hash Tables||
+|Linked Lists||
 |Skip Lists||
+|Binary Heaps||
+|Binomial Heaps||
 |Tries||
+|Bubble Sort||
+|Selection Sort||
+|Insertion Sort||
+|Merge Sort||
+|Heap Sort||
+|Quick Sort||
+|Count Sort||
+|Karp Rabin||
+
+
 
