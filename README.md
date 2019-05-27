@@ -5,4 +5,11 @@ This repo serves as a studying material and a practice on implementation of comm
 |Name|Article|
 |------|---------|
 |Binary Search Trees|https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html|
-|X|Y|
+|Stacks & Queues||
+|Linked Lists (Singly, Doubly, and Circularly)||
+|Red Black Trees||
+|AVL Trees||
+|Binary Heaps||
+|Skip Lists||
+|Tries||
+
