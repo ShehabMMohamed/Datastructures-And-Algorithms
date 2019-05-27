@@ -1,9 +1,0 @@
-# IDE
-.idea/
-
-#CMAKE
-cmake-build-debug/
-
-main_1.cpp
-tree_search_traverse_algorithms.cpp
-TODO.txt
