@@ -5,4 +5,4 @@ This repo serves as a studying material and a practice on implementation of comm
 |Name|Article|
 |------|---------|
 |Binary Search Trees|https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html|
-|XXX|YYYYYYYYYY|
+|X|Y|
