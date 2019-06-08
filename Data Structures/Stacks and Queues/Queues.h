@@ -4,32 +4,40 @@
 template <typename T>
 class Queue {
 private:
-    int front_idx, back_idx, capacity;
-    T *A;
+    int front, back, capacity, size;
+    T *q;
 public:
-    Queue() : capacity(50), front_idx(-1), back_idx(-1) {
-        A = new T[capacity];
+    Queue() : size(0), capacity(125), front(1), back(0) { q = new T[capacity]; }
+    void Enqueue(const T& e) {
+        if(isFull())
+            std::cout<<"Queue is Full. \n";
+        else {
+            std::cout << "(" << e << ") enqueued.\n";
+            back = (back + 1) % capacity;
+            q[back] = e;
+            size++;
+        }
     }
-    T Front() {
-        if(!isEmpty())
-            return A[front_idx];
-        std::cout<<"Error. Queue is empty.\n";
+    void Dequeue(T& e) {
+        if(isEmpty())
+            std::cout<<"Queue is Empty. \n";
+        else {
+            e = q[front];
+            std::cout << "(" << e << ") dequeued.\n";
+            front = (front + 1) % capacity;
+            size--;
+        }
     }
-    T Back() {
-        if(!isEmpty())
-            return A[back_idx];
-        std::cout<<"Error. Queue is empty.\n";
+    void queueFront(T& e) {
+        if(isEmpty())
+            std::cout<<"Queue is Empty. \n";
+        else
+            e = q[front];
     }
-    void Enqueue(const T& e);   //TODO.
-    T Dequeue();                //TODO;
-    bool isFull() {
-        return (front == end == (capacity - 1));
-    }
-    bool isEmpty() {
-        return (front == end == -1);
-    }
-    void showQueue();           //TODO;
-    ~Queue();
+    bool isFull() { return (size == capacity); }
+    bool isEmpty() { return (size == 0); }
+    ~Queue() {  delete[] q; }
 
 };
+
 #endif
