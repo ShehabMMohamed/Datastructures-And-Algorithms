@@ -5,10 +5,10 @@ This repo serves as a studying material and a practice on implementation of comm
 |Article|Source Code|
 |------|---------|
 |[Binary Search Trees](https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html) | https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/BinarySearchTrees.h|
-|Stacks(https://shehabmmohamed.github.io/computer-science/2019/01/20/Stacks-&-Queues.html)|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Stacks.h|
-|Queues(https://shehabmmohamed.github.io/computer-science/2019/01/20/Stacks-&-Queues.html)|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h|
+|[Stacks](https://shehabmmohamed.github.io/computer-science/2019/01/20/Stacks-&-Queues.html)|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Stacks.h|
+|[Queues](https://shehabmmohamed.github.io/computer-science/2019/01/20/Stacks-&-Queues.html)|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h|
 |Hash Tables||
-|Linked Lists(https://shehabmmohamed.github.io/computer-science/2019/03/12/Linked-Lists.html)|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h|
+|[Linked Lists](https://shehabmmohamed.github.io/computer-science/2019/03/12/Linked-Lists.html)|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h|
 |Binary Heaps||
 
 
@@ -16,7 +16,7 @@ This repo serves as a studying material and a practice on implementation of comm
 
 |Article|Source Code|
 |------|---------|
-|Red Black Trees(https://shehabmmohamed.github.io/computer-science/2019/01/24/Red-Black-Trees.html)||
+|[Red Black Trees](https://shehabmmohamed.github.io/computer-science/2019/01/24/Red-Black-Trees.html)||
 |AVL Trees||
 |Tries||
 |B Trees||
