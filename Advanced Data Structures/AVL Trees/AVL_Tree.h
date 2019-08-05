@@ -1,6 +1,3 @@
-//
-// Created by Shehab Abdel-Salam on 7/27/18.
-//
 
 #ifndef DATASTRUCTURES_AVL_TREE_H
 #define DATASTRUCTURES_AVL_TREE_H
