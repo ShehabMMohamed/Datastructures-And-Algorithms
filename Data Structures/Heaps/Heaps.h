@@ -2,33 +2,47 @@
 #define HEAPS_H
 #include <vector>
 
+template<typename T>
 class MinHeap {
 private:
-    vector<int> V;
+    std::vector<T> V;
     int capacity;
     int count = 0;
 
 public:
-    MinHeap() {}l
-    MinHeap(int size) : capacity(size) {};
-    void BubbleUp(int);
-    void BubbleDown(int);
-    void Heapify();
-    bool insert_key(int k);
-    bool remove_key(int k);
-    int retrieve_min();
+    MinHeap() {};
+    MinHeap(std::vector<T> vec) {
+        for(const T& item : vec)
+            push(item);
+    }
+    void push(const T& item) {
+
+    }
+    void pop() {
+
+    }
+    T top() {
+
+    }
+    void HeapSort() {
+
+    }
+    void Heapify() {
+
+    }
     ~MinHeap() {};
 };
 
+template<typename T>
 class MaxHeap {
 private:
-    vector<int> V;
+    std::vector<int> V;
     int capacity;
     int count = 0;
 
 public:
     MaxHeap() {};
-    MaxHeap(int size) : capacity(size) {};
+
     void BubbleUp(int);
     void BubbleDown(int);
     void Heapify();

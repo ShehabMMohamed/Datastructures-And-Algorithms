@@ -6,7 +6,7 @@ public:
     int key;
     TreeNode *left;
     TreeNode *right;
-    TreeNode(int k) : key(k) {};
+    TreeNode(int k) : key(k), left(NULL), right(NULL) {};
 };
 
 class BST {

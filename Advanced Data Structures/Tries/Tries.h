@@ -1,11 +1,11 @@
-#include <string>
 #ifndef TRIES_H
 #define TRIES_H
 #define ALPHA_SIZE 256
+#include <string>
 
 class TrieNode {
 public:
-	TrieNode *children[ALPHA_SIZE];    // size of the alphabet is 256.
+	TrieNode* children[ALPHA_SIZE];    // size of the alphabet is 256.
 	bool isEndOfWord;	// true if the node represents end of a word.
 	TrieNode() : isEndOfWord(false) {
 		for(int i = 0; i < ALPHA_SIZE; i++)
@@ -83,7 +83,6 @@ public:
     bool Search(std::string key) {	return _search(root, key);	}
     bool Delete(std::string key) {	return _delete(root, key);	}
     ~Trie() { delete root; }
-
 };
 
 #endif 

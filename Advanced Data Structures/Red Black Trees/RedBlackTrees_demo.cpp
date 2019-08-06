@@ -8,7 +8,7 @@ int main() {
 	for(int& key : test_case)
 		tree.InsertKey(key);
 
-	// Prints the sortes keys in the RBT.
+	// Prints the sorted keys in the RBT.
 	tree.InOrderTraversal();
 
 	// writes a tree-like format in a .txt file called (tree_display.txt)
