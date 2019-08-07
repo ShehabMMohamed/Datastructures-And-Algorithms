@@ -17,7 +17,7 @@ This repo serves as a studying material and a practice on implementation of comm
 |Article|Source Code|
 |------|---------|
 |[Red Black Trees](https://shehabmmohamed.github.io/computer-science/2019/01/24/Red-Black-Trees.html)|[Red Black Trees Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Advanced%20Data%20Structures/Red%20Black%20Trees/RedBlackTrees.h)|
-|AVL Trees||
+|AVL Trees|[AVL Trees Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Advanced%20Data%20Structures/AVL%20Trees)|
 |Tries|[Tries Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Advanced%20Data%20Structures/Tries/Tries.h)|
 |B Trees||
 |Skip Lists||
