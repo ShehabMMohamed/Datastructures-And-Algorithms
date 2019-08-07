@@ -27,7 +27,6 @@ This repo serves as a studying material and a practice on implementation of comm
 
 |Article|Source Code|
 |------|---------|
-|Bit Manipulation||
 |Bubble Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Bubble_Sort.cpp|
 |Bucket Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Bucket_Sort.cpp|
 |Selection Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Selection_Sort.cpp|
