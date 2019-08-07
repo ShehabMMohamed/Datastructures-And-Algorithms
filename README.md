@@ -29,13 +29,15 @@ This repo serves as a studying material and a practice on implementation of comm
 |------|---------|
 |Bit Manipulation||
 |Bubble Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Bubble_Sort.cpp|
+|Bucket Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Bucket_Sort.cpp|
 |Selection Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Selection_Sort.cpp|
 |Insertion Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Insertion_Sort.cpp|
 |Merge Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Merge_Sort.cpp|
 |Heap Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Heap_Sort.cpp|
 |Quick Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Quick_Sort.cpp|
 |Count Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Count_Sort.cpp|
-|Topological Sort||
+|Fisher-Yates|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Fisher_Yates_Shuffle.cpp|
+|Topological Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Topological_Sort.cpp|
 |Karp Rabin|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/karp_rabin_algorithm.cpp|
 |Dijkstra's Algorithm||
 
