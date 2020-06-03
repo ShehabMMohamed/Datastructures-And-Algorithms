@@ -1,6 +1,7 @@
 #ifndef BINARYSEARCHTREES_H
 #define BINARYSEARCHTREES_H
-
+#include <stdio.h>
+#include <iostream>
 class TreeNode {
 public:
     int key;
