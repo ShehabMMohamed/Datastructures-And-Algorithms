@@ -1,5 +1,15 @@
 # Datastructures-And-Algorithms
-This repo serves as a studying material and a practice on implementation of common Datastructures and Algorithms.
+Short Articles and Implementations of common data structures & algorithms in C++. 
+
+This is an active repo and will frequently cover more content.
+
+| Current Status|     Stats     |
+| :------------: | :----------: |
+| Data structure | 4 |
+| Advanced data structure | 3 |
+| Algorithms | 11 |
+| Articles Covered | 4 |
+| Timeline | xx/xx/xxxx - xx/xx/xxxx |
 
 ## Datastructures
 |Article|Source Code|
@@ -27,7 +37,6 @@ This repo serves as a studying material and a practice on implementation of comm
 
 |Article|Source Code|
 |------|---------|
-|Bit Manipulation||
 |Bubble Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Bubble_Sort.cpp|
 |Bucket Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Bucket_Sort.cpp|
 |Selection Sort|https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Algorithms/Selection_Sort.cpp|
