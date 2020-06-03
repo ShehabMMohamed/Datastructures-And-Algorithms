@@ -22,9 +22,9 @@ private:
     int len;
 
 public:
-    LinkedList() : head(NULL), len(0) {};
+    LinkedList() : head(nullptr), len(0) {};
     void insert_node_from_head(T val) {
-        std::cout<<"Inserting node from head...\n";
+        std::cout<<"Inserting node from head.\n";
         ListNode<T>* temp = _create_node(val);
         temp->next = head;
         head = temp;
@@ -35,9 +35,9 @@ public:
             insert_node_from_head(val);
             return;
         }
-        std::cout<<"Inserting node from ("<<position<<") position...\n";
+        std::cout<<"Inserting node from ("<<position<<") position.\n";
         ListNode<T>* runner = head;
-        ListNode<T>* prev = NULL;
+        ListNode<T>* prev = nullptr;
         while(position != 1 && runner) {
             prev = runner;
             runner = runner->next;
@@ -48,7 +48,7 @@ public:
         len++;
     }
     void insert_node_from_tail(T val) {
-        std::cout<<"Inserting node from tail...\n";
+        std::cout<<"Inserting node from tail.\n";
         ListNode<T>* runner = head;
         while(runner->next) 
             runner = runner->next;
@@ -57,7 +57,7 @@ public:
     }
 
     void delete_node_from_head() {
-        std::cout<<"Deleting node from head...\n";
+        std::cout<<"Deleting node from head.\n";
         ListNode<T>* fwd = head;
         head = head->next;
         delete fwd;
@@ -68,28 +68,28 @@ public:
             delete_node_from_head();
             return;
         }
-        std::cout<<"Deleting node from ("<<position<<") position...\n";
+        std::cout<<"Deleting node from ("<<position<<") position.\n";
         ListNode<T>* runner = head;
-        ListNode<T>* prev = NULL;
+        ListNode<T>* prev = nullptr;
         while(position != 1 && runner) {
             prev = runner;
             runner = runner->next;
             position--;
         }
         prev->next = runner->next;
-        runner->next = NULL;
+        runner->next = nullptr;
         delete runner;
         len--;
     }
     void delete_node_from_tail() {
-        std::cout<<"Deleting node from tail...\n";
+        std::cout<<"Deleting node from tail.\n";
         ListNode<T>* runner = head;
-        ListNode<T>* prev = NULL;
+        ListNode<T>* prev = nullptr;
         while(runner->next) {
             prev = runner;
             runner = runner->next;
         }
-        prev->next = NULL;
+        prev->next = nullptr;
         delete runner;
         len--;
     }
@@ -109,7 +109,13 @@ public:
         return len;
     }
     ~LinkedList() {
-        delete head;
+        std::cout<<"Deleting List nodes.\n";
+        ListNode<T>* runner = head;
+        while(runner) {
+            ListNode<T>* nxt = runner->next;
+            delete runner;
+            runner = nxt;
+        }
     }
 };
 
