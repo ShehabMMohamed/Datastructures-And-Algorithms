@@ -9,7 +9,8 @@ This is an active repo and will frequently cover more content.
 | Advanced data structure | 3 |
 | Algorithms | 11 |
 | Articles Covered | 4 |
-| Timeline | xx/xx/xxxx - xx/xx/xxxx |
+| Status | Ongoing|
+
 
 ## Datastructures
 |Article|Source Code|
