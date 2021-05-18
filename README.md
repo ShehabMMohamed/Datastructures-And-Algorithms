@@ -5,10 +5,10 @@ This is an active repo and will frequently cover more content.
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Data structure | 4 |
+| Data structure | 7 |
 | Advanced data structure | 3 |
 | Algorithms | 11 |
-| Articles Covered | 4 |
+| Articles Covered | 8 |
 | Status | Ongoing|
 
 
@@ -18,9 +18,9 @@ This is an active repo and will frequently cover more content.
 |[Binary Search Trees](https://shehabmmohamed.github.io/computer-science/2018/10/19/Binary-Search-Trees.html) | [Binary Search Trees Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Binary%20Search%20Trees/BinarySearchTrees.h)|
 |[Stacks](https://shehabmmohamed.github.io/computer-science/2019/01/20/Stacks-&-Queues.html)| [Stacks Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Stacks.h)|
 |[Queues](https://shehabmmohamed.github.io/computer-science/2019/01/20/Stacks-&-Queues.html)| [Queues Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Stacks%20and%20Queues/Queues.h)|
-|[Hash Tables](https://shehabmmohamed.github.io/computer-science/2019/01/22/HashTables.html)||
 |[Linked Lists](https://shehabmmohamed.github.io/computer-science/2019/03/12/Linked-Lists.html)| [Linked Lists Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Linked%20Lists/LinkedLists.h)|
 |[Binary Heaps](https://shehabmmohamed.github.io/computer-science/2019/04/25/Heaps-&-Priority-Queues.html)|[Heaps Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/Priority%20Queues/PriorityQueue.h)|
+|[Hash Tables](https://shehabmmohamed.github.io/computer-science/2019/01/22/HashTables.html)|[Hash Tables Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/blob/master/Data%20Structures/HashTables/HashTable.h)|
 |Graphs|[Graphs Implementation](https://github.com/ShehabMMohamed/Datastructures-And-Algorithms/tree/master/Data%20Structures/Graphs)|
 
 
